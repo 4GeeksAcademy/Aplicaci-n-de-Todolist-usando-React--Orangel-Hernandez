@@ -1,12 +1,34 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+}
 
-/* 
+li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.botonEnviar {
+    display: none;
+}
+.totalTarea{
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.numeroLength {
+    padding-right: 20px;
+    padding-top: 16px;
+}
 
-*/
+.borrador {
+    padding-right: 20px;
+    font-size: 20px;
+}
+.toDoList {
+    font-color: grey;
+}
